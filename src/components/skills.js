@@ -13,15 +13,15 @@ class Skills extends React.Component {
                     <div className="row skills-content">
                         <div className="col-lg-6">
                             <div className="progress">
-                                <span className="skill">HTML <i className="val">100%</i></span>
+                                <span className="skill">HTML <i className="val">80%</i></span>
                                 <div className="progress-bar-wrap">
-                                    <Progress percent={100} />
+                                    <Progress percent={80} />
                                 </div>
                             </div>
                             <div className="progress">
-                                <span className="skill">CSS <i className="val">90%</i></span>
+                                <span className="skill">CSS <i className="val">75%</i></span>
                                 <div className="progress-bar-wrap">
-                                    <Progress percent={90} />
+                                    <Progress percent={75} />
                                 </div>
                             </div>
 
@@ -36,6 +36,13 @@ class Skills extends React.Component {
                                 <span className="skill">Github <i className="val">100%</i></span>
                                 <div className="progress-bar-wrap">
                                     <Progress percent={100} />
+                                </div>
+                            </div>
+
+                            <div className="progress">
+                                <span className="skill">ReactJs <i className="val">25%</i></span>
+                                <div className="progress-bar-wrap">
+                                    <Progress percent={25} />
                                 </div>
                             </div>
                         </div>
@@ -65,7 +72,14 @@ class Skills extends React.Component {
                             <div className="progress">
                                 <span className="skill">Ms Office <i className="val">100%</i></span>
                                 <div className="progress-bar-wrap">
-                                    <Progress percent={100} />
+                                    <Progress percent={80} />
+                                </div>
+                            </div>
+
+                            <div className="progress">
+                                <span className="skill">NodeJs <i className="val">25%</i></span>
+                                <div className="progress-bar-wrap">
+                                    <Progress percent={25} />
                                 </div>
                             </div>
                         </div>

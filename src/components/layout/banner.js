@@ -49,7 +49,7 @@ class Banner extends React.Component {
             <section id="hero" className="d-flex flex-column justify-content-center">
                 <div className="container" data-aos="zoom-in" data-aos-delay="100">
                     <h1>Avinash Gautam</h1>
-                    <p>I'm <span className="typed">{this.state.text}</span><span id="cursor"></span></p>
+                    <p>I'm a <span className="typed">{this.state.text}</span><span id="cursor"></span></p>
                     <div className="social-links">
                         <a href="https://twitter.com/Avinashjini18" className="twitter"><i className="bx bxl-twitter"></i></a>
                         <a href="https://www.facebook.com/avinashjini/" className="facebook"><i className="bx bxl-facebook"></i></a>
