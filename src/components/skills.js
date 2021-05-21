@@ -4,7 +4,7 @@ import { Progress } from 'react-sweet-progress';
 class Skills extends React.Component {
     render() {
         return (
-            <section id="skills" className="skills section-bg">
+            <section id="skill" className="skills section-bg">
                 <div className="container" data-aos="fade-up">
                     <div className="section-title">
                         <h2>Skills</h2>
@@ -13,46 +13,60 @@ class Skills extends React.Component {
                     <div className="row skills-content">
                         <div className="col-lg-6">
                             <div className="progress">
-                            <span className="skill">HTML <i className="val">100%</i></span>
-                            <div className="progress-bar-wrap">
-                                <Progress percent={100} />
-                            </div>
+                                <span className="skill">HTML <i className="val">100%</i></span>
+                                <div className="progress-bar-wrap">
+                                    <Progress percent={100} />
+                                </div>
                             </div>
                             <div className="progress">
-                            <span className="skill">CSS <i className="val">90%</i></span>
-                            <div className="progress-bar-wrap">
-                                <Progress percent={90} />
-                            </div>
+                                <span className="skill">CSS <i className="val">90%</i></span>
+                                <div className="progress-bar-wrap">
+                                    <Progress percent={90} />
+                                </div>
                             </div>
 
                             <div className="progress">
-                            <span className="skill">JavaScript <i className="val">75%</i></span>
-                            <div className="progress-bar-wrap">
-                                <Progress percent={75} />
+                                <span className="skill">JavaScript <i className="val">80%</i></span>
+                                <div className="progress-bar-wrap">
+                                    <Progress percent={80} />
+                                </div>
                             </div>
+
+                            <div className="progress">
+                                <span className="skill">Github <i className="val">100%</i></span>
+                                <div className="progress-bar-wrap">
+                                    <Progress percent={100} />
+                                </div>
                             </div>
                         </div>
 
                         <div className="col-lg-6">
                             <div className="progress">
-                            <span className="skill">PHP <i className="val">80%</i></span>
-                            <div className="progress-bar-wrap">
-                                <Progress percent={80} />
-                            </div>
-                            </div>
-
-                            <div className="progress">
-                            <span className="skill">WordPress/CMS <i className="val">90%</i></span>
-                            <div className="progress-bar-wrap">
-                                <Progress percent={90} />
-                            </div>
+                                <span className="skill">PHP <i className="val">80%</i></span>
+                                <div className="progress-bar-wrap">
+                                    <Progress percent={80} />
+                                </div>
                             </div>
 
                             <div className="progress">
-                            <span className="skill">Photoshop <i className="val">55%</i></span>
-                            <div className="progress-bar-wrap">
-                                <Progress percent={55} />
+                                <span className="skill">Laravel <i className="val">90%</i></span>
+                                <div className="progress-bar-wrap">
+                                    <Progress percent={90} />
+                                </div>
                             </div>
+
+                            <div className="progress">
+                                <span className="skill">Angular <i className="val">75%</i></span>
+                                <div className="progress-bar-wrap">
+                                    <Progress percent={75} />
+                                </div>
+                            </div>
+                            
+                            <div className="progress">
+                                <span className="skill">Ms Office <i className="val">100%</i></span>
+                                <div className="progress-bar-wrap">
+                                    <Progress percent={100} />
+                                </div>
                             </div>
                         </div>
                     </div>

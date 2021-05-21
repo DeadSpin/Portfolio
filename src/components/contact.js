@@ -17,19 +17,19 @@ class Contact extends React.Component {
                                 <div className="address">
                                     <i className="icofont-google-map"></i>
                                     <h4>Location:</h4>
-                                    <p>A108 Adam Street, New York, NY 535022</p>
+                                    <p>Moti Jheel Colony, Aish Bagh, Lucknow, U.P. 226004</p>
                                 </div>
 
                                 <div className="email">
                                     <i className="icofont-envelope"></i>
                                     <h4>Email:</h4>
-                                    <p>info@example.com</p>
+                                    <p>avinashjini18@gmail.com</p>
                                 </div>
 
                                 <div className="phone">
                                     <i className="icofont-phone"></i>
                                     <h4>Call:</h4>
-                                    <p>+1 5589 55488 55s</p>
+                                    <p>+91 935-923-2724</p>
                                 </div>
                             </div>
                         </div>

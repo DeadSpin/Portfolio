@@ -8,24 +8,35 @@ import Services from './components/services';
 import Skills from './components/skills';
 import Testimonials from './components/testimonials';
 import WorkSheet from './components/worksheet';
+import Chat from './components/chat/chat';
+import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
 import './App.css'
 
 function App() {
   return (
-    <div className="App">
-      <NavBar />
-      <Banner dataText={['Developer', 'Freelancer']}/>
-      <div className="padding-left-100">
-        <AboutUs />
-        <Skills />
-        <Resume />
-        <WorkSheet />
-        <Services />
-        <Testimonials />
-        <Contact />
+    <Router>
+      <div className="App">
+        <Switch>
+          <Route path="/chat">
+            <Chat />
+          </Route>
+          <Route path="/">
+            <NavBar />
+            <Banner dataText={['Developer', 'Freelancer']}/>
+            <div className="padding-left-100">
+              <AboutUs />
+              <Skills />
+              <Resume />
+              <WorkSheet />
+              <Services />
+              <Testimonials />
+              <Contact />
+            </div>
+            <Footer />
+          </Route>
+        </Switch>
       </div>
-      <Footer />
-    </div>
+    </Router>
   );
 }
 

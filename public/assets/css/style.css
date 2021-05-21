@@ -593,9 +593,10 @@ section {
 .portfolio .portfolio-wrap {
   transition: 0.3s;
   position: relative;
+  text-align: center;
   overflow: hidden;
   z-index: 1;
-  background: rgba(69, 80, 91, 0.8);
+  background: rgb(230 232 234 / 80%);
 }
 
 .portfolio .portfolio-wrap::before {
