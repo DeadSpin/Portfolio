@@ -9,7 +9,6 @@ class Testimonials extends React.Component {
                     <div className="section-title">
                         <h2>Testimonials</h2>
                     </div>
-
                     <OwlCarousel items={1} margin={8} loop={true} autoplay ={true} className="owl-carousel testimonials-carousel">
                         <div className="testimonial-item">
                             <img src="assets/img/testimonials/testimonials-1.jpg" className="testimonial-img" alt=""></img>
@@ -66,7 +65,6 @@ class Testimonials extends React.Component {
                             </p>
                         </div>
                     </OwlCarousel >
-
                 </div>
             </section>
         )
