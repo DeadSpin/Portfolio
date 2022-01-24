@@ -10,8 +10,10 @@ import Testimonials from './components/testimonials';
 import WorkSheet from './components/worksheet';
 import Chat from './components/chat/chat';
 import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
+import { ToastContainer} from 'react-toastify';
+
 import './App.css'
-import Toastr from './components/notification/toastr';
+import 'react-toastify/dist/ReactToastify.css';
 
 const App = () => {
   return (
@@ -25,7 +27,7 @@ const App = () => {
             <NavBar />
             <Banner dataText={['Software Developer', 'Freelancer']}/>
             <div className="padding-left-100">
-              <Toastr />
+              <ToastContainer />
               <AboutUs />
               <Skills />
               <Resume />

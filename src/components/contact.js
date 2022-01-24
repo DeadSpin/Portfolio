@@ -1,17 +1,20 @@
 import React, { useState } from 'react';
 import emailjs from '@emailjs/browser';
+import { toast } from 'react-toastify';
+import Toastr from './notification/toastr'
 
 const Contact = () => {
     const user_id = 'user_04dLqidQ8cSA13ROrZxDY';
     const service_id = 'service_xeztdgc';
     const template_id = 'template_d6zhfgh';
-    const [userInput, setUserInput] = useState ({
-        name: '',
-        email: '',
-        subject: '',
-        message: '',
-        errors: []
-    });
+    const userFormField = {
+                    name: '',
+                    email: '',
+                    subject: '',
+                    message: '',
+                    errors: []
+                }
+    const [userInput, setUserInput] = useState ({ ...userFormField });
 
     const userInputHander = (event) => {
         if(event.target) {
@@ -33,7 +36,7 @@ const Contact = () => {
           errors["name"] = "* Name required";
         }
         else if (typeof fields["name"] !== "undefined") {
-          if (!fields["name"].match(/^[a-zA-Z]+$/)) {
+          if (!fields["name"].match(/^[a-zA-Z]+/)) {
             formIsValid = false;
             errors["name"] = "* Only letters allowed";
           }
@@ -69,7 +72,7 @@ const Contact = () => {
             errors["subject"] = "* Subject required";
         }
         else if (typeof fields["subject"] !== "undefined") {
-            if (!fields["subject"].match(/^[a-zA-Z]+$/)) {
+            if (!fields["subject"].match(/^[a-zA-Z]+/)) {
               formIsValid = false;
               errors["subject"] = "* Only letters allowed";
             }
@@ -81,7 +84,7 @@ const Contact = () => {
             errors["message"] = "* Message required";
         }
         else if (typeof fields["message"] !== "undefined") {
-            if (!fields["message"].match(/^[a-zA-Z]+$/)) {
+            if (!fields["message"].match(/^[a-zA-Z]+/)) {
               formIsValid = false;
               errors["message"] = "* Only letters allowed";
             }
@@ -97,11 +100,15 @@ const Contact = () => {
     const sendEmail = (e) => {
         e.preventDefault();
         if (handleValidation()) {
+            setUserInput({ ...userFormField })
             emailjs.sendForm(service_id, template_id, e.target, user_id)
-            .then((result) => {
-                console.log(result.text);
-            }, (error) => {
-                console.log(error.text);
+                .then((result) => {
+                    toast('Email sent successfully!!!', {
+                        position: "bottom-right",
+                        autoClose: 3000,
+                    });
+                }, (error) => {
+                    console.log(error.text);
             });
         }
     };

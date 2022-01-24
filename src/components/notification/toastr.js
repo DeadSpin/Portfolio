@@ -1,17 +1,11 @@
-import { ToastContainer, toast } from 'react-toastify';
+import React from 'react';
+import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-const Toastr = () => {
-    const successToastr = () => {
+class Toastr extends React.Component {
+    successToastr = () => {
         toast('🦄 Wow so easy!');
         console.log('123')
     }
-
-    return (
-        <div>
-            <ToastContainer />
-            <a className="next" onClick={successToastr}> Click to Show Notification </a>
-        </div>
-    );
 }
 export default Toastr;
