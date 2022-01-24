@@ -11,8 +11,9 @@ import WorkSheet from './components/worksheet';
 import Chat from './components/chat/chat';
 import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
 import './App.css'
+import Toastr from './components/notification/toastr';
 
-function App() {
+const App = () => {
   return (
     <Router>
       <div className="App">
@@ -22,8 +23,9 @@ function App() {
           </Route>
           <Route path="/">
             <NavBar />
-            <Banner dataText={['Developer', 'Freelancer']}/>
+            <Banner dataText={['Software Developer', 'Freelancer']}/>
             <div className="padding-left-100">
+              <Toastr />
               <AboutUs />
               <Skills />
               <Resume />
