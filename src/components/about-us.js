@@ -11,7 +11,7 @@ const AboutUs = () => {
             <div className="container" data-aos="fade-up">
                 <div className="section-title">
                 <h2>About</h2>
-                <p>I am a Web development expert with more than {exeYear} years of experience in setup and customization and I am capable of assisting my clients with entire development cycle starting from requirements gathering, application GUI, application front-end and back-end development.</p>
+                <p>I am a Web development expert with more than {exeYear} years of experience in setup and customization and I am capable of assisting my clients with entire development cycle starting from requirements gathering, application GUI, application front-end and back-end development. Execellent reputation for resolving problems, improving customer satisfaction and driving overall operational improvements. </p>
                 </div>
 
                 <div className="row">
@@ -36,8 +36,8 @@ const AboutUs = () => {
                         <ul>
                         <li><i className="icofont-rounded-right"></i> <strong>Age:</strong> {age}</li>
                         {/* <li><i className="icofont-rounded-right"></i> <strong>Degree:</strong> Master</li> */}
-                        <li><i className="icofont-rounded-right"></i> <strong>PhEmailone:</strong> avinashjini18@gmail.com</li>
-                        <li><i className="icofont-rounded-right"></i> <strong>Freelance:</strong> Available</li>
+                        <li><i className="icofont-rounded-right"></i> <strong>Email:</strong> avinashjini18@gmail.com</li>
+                        <li><i className="icofont-rounded-right"></i> <strong>Full Time / Freelance:</strong> Available</li>
                         </ul>
                     </div>
                     </div>

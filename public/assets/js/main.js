@@ -111,8 +111,10 @@
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
       $('.back-to-top').fadeIn('slow');
+      $('.download-resume').css('bottom', '60px')
     } else {
       $('.back-to-top').fadeOut('slow');
+      $('.download-resume').css('bottom', '15px')
     }
   });
 
