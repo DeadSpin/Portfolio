@@ -52,8 +52,20 @@ const Resume = () => {
                 <div className="col-lg-6">
                     <h3 className="resume-title">Professional Experience</h3>
                     <div className="resume-item">
+                        <h4>Assistant Manager </h4>
+                        <h5>2022 - Present</h5>
+                        <p><em>WNS Global Services, Noida, Uttar Pradesh, India </em></p>
+                        <ul>
+                            <li>Developed a design center to play with artwork on Canvas using FabricJS</li>
+                            <li>Developed interface to vitually add design to you product on FabricJS. </li>
+                            <li>Created interface for applications to PayPal, an online transaction management system.</li>
+                            <li>Developed mutli-Authentication on AWS by AWS Cognito and DynamoDB</li>
+                            <li>Understood and analyzed the client requirement with good communication skills.</li>
+                        </ul>
+                    </div>
+                    <div className="resume-item">
                         <h4>Freelancer </h4>
-                        <h5>2020 - Present</h5>
+                        <h5>2020 - 2022 (Available)</h5>
                         <p><em>Lucknow, Uttar Pradesh, India </em></p>
                         <ul>
                             <li>Developed a design center to play with artwork on Canvas using FabricJS</li>

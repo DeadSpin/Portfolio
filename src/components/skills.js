@@ -38,9 +38,9 @@ const Skills = () => {
                         </div>
 
                         <div className="progress">
-                            <span className="skill">ReactJs <i className="val">25%</i></span>
+                            <span className="skill">ReactJs <i className="val">55%</i></span>
                             <div className="progress-bar-wrap">
-                                <Progress percent={25} />
+                                <Progress percent={55} />
                             </div>
                         </div>
 
@@ -82,9 +82,9 @@ const Skills = () => {
                         </div>
 
                         <div className="progress">
-                            <span className="skill">NodeJs <i className="val">25%</i></span>
+                            <span className="skill">NodeJs <i className="val">75%</i></span>
                             <div className="progress-bar-wrap">
-                                <Progress percent={25} />
+                                <Progress percent={75} />
                             </div>
                         </div>
 

@@ -1,12 +1,11 @@
-import React, { useState } from 'react';
 import emailjs from '@emailjs/browser';
+import React, { useState } from 'react';
 import { toast } from 'react-toastify';
-import Toastr from './notification/toastr'
 
 const Contact = () => {
-    const user_id = 'user_04dLqidQ8cSA13ROrZxDY';
-    const service_id = 'service_xeztdgc';
-    const template_id = 'template_d6zhfgh';
+    const user_id = 'lk_oRmPBg8oIZ6RON';
+    const service_id = 'service_rwhv03h';
+    const template_id = 'template_2go5ivi';
     const userFormField = {
                     name: '',
                     email: '',
