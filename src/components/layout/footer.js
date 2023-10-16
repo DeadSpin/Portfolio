@@ -18,11 +18,11 @@ const Footer = () => {
                 </div>
             </div>
 
-            <a data-tip data-for='downloadresume' href="assets/docs/Avinash_Gautam_Resume.pdf" class="download-resume" download><i class="bx bxs-cloud-download"></i></a>
+            <a data-tip data-for='downloadresume' href="assets/docs/Avinash_Gautam_Resume.pdf" className="download-resume" download><i className="bx bxs-cloud-download"></i></a>
             <ReactTooltip id='downloadresume' type='light' effect='solid' backgroundColor='#0563bb' textColor='#FFF'>
                 <span>Download Resume</span>
             </ReactTooltip>
-            <a data-tip data-for='backtotop' href="#" class="back-to-top"><i class="bx bx-up-arrow-alt"></i></a>
+            <a data-tip data-for='backtotop' href="#" className="back-to-top"><i className="bx bx-up-arrow-alt"></i></a>
             <ReactTooltip id='backtotop' type='light' effect='solid' backgroundColor='#0563bb' textColor='#FFF'>
                 <span>Back to top</span>
             </ReactTooltip>

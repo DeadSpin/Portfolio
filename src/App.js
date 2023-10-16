@@ -1,28 +1,28 @@
-import AboutUs from './components/about-us';
-import Contact from './components/contact';
+import AboutUs from './components/home/about-us';
+import Contact from './components/home/contact';
+import Resume from './components/home/resume';
 import Banner from './components/layout/banner';
 import Footer from './components/layout/footer';
 import NavBar from './components/layout/navbar';
-import Resume from './components/resume';
 // import Services from './components/services';
-import Skills from './components/skills';
+import Skills from './components/home/skills';
 // import Testimonials from './components/testimonials';
-import WorkSheet from './components/worksheet';
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { ToastContainer } from 'react-toastify';
 import Chat from './components/chat/chat';
-import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
-import { ToastContainer} from 'react-toastify';
+import WorkSheet from './components/home/worksheet';
 
-import './App.css'
 import 'react-toastify/dist/ReactToastify.css';
+import './App.css';
+import AuthForm from './components/auth/authForm';
 
 const App = () => {
   return (
     <Router>
       <div className="App">
         <Switch>
-          <Route path="/chat">
-            <Chat />
-          </Route>
+          <Route path="/chat"> <Chat /> </Route>
+          <Route path="/login"> <AuthForm /> </Route>
           <Route path="/">
             <NavBar />
             <Banner dataText={['Software Developer', 'Freelancer']}/>
