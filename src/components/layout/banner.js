@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 class Banner extends React.Component {
 
@@ -51,11 +52,11 @@ class Banner extends React.Component {
                     <h1>Avinash Gautam</h1>
                     <p>I'm a <span className="typed">{this.state.text}</span><span id="cursor"></span></p>
                     <div className="social-links">
-                        <a href="https://twitter.com/Avinashjini18" className="twitter"><i className="bx bxl-twitter"></i></a>
-                        <a href="https://www.facebook.com/avinashjini/" className="facebook"><i className="bx bxl-facebook"></i></a>
-                        <a href="https://www.instagram.com/dead_spin/" className="instagram"><i className="bx bxl-instagram"></i></a>
-                        <a href="live:avinashjini" className="google-plus"><i className="bx bxl-skype"></i></a>
-                        <a href="https://www.linkedin.com/in/avinashgautam-webdeveloper/" className="linkedin"><i className="bx bxl-linkedin"></i></a>
+                        <Link to="https://twitter.com/Avinashjini18" className="twitter"><i className="bx bxl-twitter"></i></Link>
+                        <Link to="https://www.facebook.com/avinashjini/" className="facebook"><i className="bx bxl-facebook"></i></Link>
+                        <Link to="https://www.instagram.com/dead_spin/" className="instagram"><i className="bx bxl-instagram"></i></Link>
+                        <Link to="live:avinashjini" className="google-plus"><i className="bx bxl-skype"></i></Link>
+                        <Link to="https://www.linkedin.com/in/avinashgautam-webdeveloper/" className="linkedin"><i className="bx bxl-linkedin"></i></Link>
                     </div>
                 </div>
             </section>
