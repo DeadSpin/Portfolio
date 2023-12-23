@@ -6,13 +6,13 @@ const NavBar = () => {
         <header id="header" className="d-flex flex-column justify-content-center">
             <nav className="nav-menu">
             <Scrollspy className="scrollspy" items={ ['hero', 'about', 'skill', 'resume', 'portfolio', 'contact'] } currentClassName="active">
-                <li><Link to="#hero"><i className="bx bx-home"></i> <span>Home</span></Link></li>
-                <li><Link to="#about"><i className="bx bx-user"></i> <span>About</span></Link></li>
-                <li><Link to="#skill"><i className="bx bx-brain"></i> <span>Skill</span></Link></li>
-                <li><Link to="#resume"><i className="bx bx-file-blank"></i> <span>Resume</span></Link></li>
-                <li><Link to="#portfolio"><i className="bx bx-book-content"></i> <span>Portfolio</span></Link></li>
-                <li><Link to="#contact"><i className="bx bx-envelope"></i> <span>Contact</span></Link></li>
-                {/* <li><Link to="#services"><i className="bx bx-server"></i> <span>Services</span></Link></li> */}
+                <li><a href="#hero"><i className="bx bx-home"></i> <span>Home</span></a></li>
+                <li><a href="#about"><i className="bx bx-user"></i> <span>About</span></a></li>
+                <li><a href="#skill"><i className="bx bx-brain"></i> <span>Skill</span></a></li>
+                <li><a href="#resume"><i className="bx bx-file-blank"></i> <span>Resume</span></a></li>
+                <li><a href="#portfolio"><i className="bx bx-book-content"></i> <span>Portfolio</span></a></li>
+                <li><a href="#contact"><i className="bx bx-envelope"></i> <span>Contact</span></a></li>
+                {/* <li><<a href="#services"><i className="bx bx-server"></i> <span>Services</span></a></li> */}
             </Scrollspy>
             </nav>
         </header>
