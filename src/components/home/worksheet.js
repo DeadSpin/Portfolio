@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-
 const WorkSheet = () => {
     return (
         <section id="portfolio" className="portfolio section-bg">
@@ -30,7 +28,7 @@ const WorkSheet = () => {
                         <p>Web</p>
                         <div className="portfolio-links">
                         {/* <a href="assets/img/portfolio/brad2.png" data-gall="portfolioGallery" className="venobox" title="Executive Advertising"><i className="bx bx-plus"></i></a> */}
-                        <a href="https://www.executiveadvertising.com/" target="_blank" data-gall="portfolioDetailsGallery" data-vbtype="iframe" className="venobox" title="Executive Advertising"><i className="bx bx-link"></i></a>
+                        <a href="https://www.executiveadvertising.com/" data-gall="portfolioDetailsGallery" data-vbtype="iframe" className="venobox" title="Executive Advertising"><i className="bx bx-link"></i></a>
                         </div>
                     </div>
                     </div>
@@ -44,7 +42,7 @@ const WorkSheet = () => {
                         <p>Web</p>
                         <div className="portfolio-links">
                         {/* <a href="assets/img/portfolio/AdobeStock.jpeg" data-gall="portfolioGallery" className="venobox" title="Doctoroo"><i className="bx bx-plus"></i></a> */}
-                        <a href="https://www.doctoroo.com.au/" target="_blank" data-gall="portfolioDetailsGallery" data-vbtype="iframe" className="venobox" title="Doctoroo"><i className="bx bx-link"></i></a>
+                        <a href="https://www.doctoroo.com.au/" data-gall="portfolioDetailsGallery" data-vbtype="iframe" className="venobox" title="Doctoroo"><i className="bx bx-link"></i></a>
                         </div>
                     </div>
                     </div>
@@ -58,7 +56,7 @@ const WorkSheet = () => {
                         <p>Web</p>
                         <div className="portfolio-links">
                         {/* <a href="assets/img/portfolio/aischc.png" data-gall="portfolioGallery" className="venobox" title="AisCHC"><i className="bx bx-plus"></i></a> */}
-                        <a href="http://aischc.com" target="_blank" data-gall="portfolioDetailsGallery" data-vbtype="iframe" className="venobox" title="AisCHC"><i className="bx bx-link"></i></a>
+                        <a href="http://aischc.com" data-gall="portfolioDetailsGallery" data-vbtype="iframe" className="venobox" title="AisCHC"><i className="bx bx-link"></i></a>
                         </div>
                     </div>
                     </div>
@@ -72,7 +70,7 @@ const WorkSheet = () => {
                         <p>Web / App</p>
                         <div className="portfolio-links">
                         {/* <a href="assets/img/portfolio/Photo_5.jpg" data-gall="portfolioGallery" className="venobox" title="MyDocRide"><i className="bx bx-plus"></i></a> */}
-                        <a href="https://www.mydocride.com/" target="_blank" data-gall="portfolioDetailsGallery" data-vbtype="iframe" className="venobox" title="MyDocRide"><i className="bx bx-link"></i></a>
+                        <a href="https://www.mydocride.com/" data-gall="portfolioDetailsGallery" data-vbtype="iframe" className="venobox" title="MyDocRide"><i className="bx bx-link"></i></a>
                         </div>
                     </div>
                     </div>
@@ -86,7 +84,7 @@ const WorkSheet = () => {
                         <p>Web</p>
                         <div className="portfolio-links">
                         {/* <a href="assets/img/portfolio/Post-Acute-Care.png" data-gall="portfolioGallery" className="venobox" title="Apotheka"><i className="bx bx-plus"></i></a> */}
-                        <a href="https://www.apotheka.co/" target="_blank" data-gall="portfolioDetailsGallery" data-vbtype="iframe" className="venobox" title="Apotheka"><i className="bx bx-link"></i></a>
+                        <a href="https://www.apotheka.co/" data-gall="portfolioDetailsGallery" data-vbtype="iframe" className="venobox" title="Apotheka"><i className="bx bx-link"></i></a>
                         </div>
                     </div>
                     </div>
