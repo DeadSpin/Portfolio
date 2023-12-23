@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import Scrollspy from 'react-scrollspy'
 
 const NavBar = () => {
